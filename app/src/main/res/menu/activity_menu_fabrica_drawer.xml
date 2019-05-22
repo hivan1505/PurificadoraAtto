@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Entrada y Salida del Personal" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Control de Mediciones(Filtros y Osmosis" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Retrolavado y Regeneracion" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Control de Fabricacion" />
+        <item
+            android:id="@+id/nav_alta_botellones"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Alta de Botellones" />
+        <item
+            android:id="@+id/nav_realizar_ventas"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Realizar Ventas" />
+        <item
+            android:id="@+id/nav_censo"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Censo" />
+        <item
+            android:id="@+id/nav_segunda_parte"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Segunda Parte del Censo" />
+        <item
+            android:id="@+id/nav_tercera_parte"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Tercera Parte del Censo" />
+        <item
+            android:id="@+id/nav_cuarta_parte"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Cuarta Parte del Censo" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>
